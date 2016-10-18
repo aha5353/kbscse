@@ -1,0 +1,33 @@
+﻿  P4.cpp
+c:\program files (x86)\windows kits\8.1\include\shared\minwindef.h(130): warning C4005: 'APIENTRY': 매크로 재정의
+  c:\users\kbs\downloads\glfw-3.2.1.bin.win64\glfw-3.2.1.bin.win64\include\glfw\glfw3.h(98): note: 'APIENTRY'의 이전 정의를 참조하십시오.
+c:\users\kbs\source\repos\homeworkweek2\pro1\pro1\circle.h(14): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\kbs\source\repos\homeworkweek2\pro1\pro1\circle.h(14): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\kbs\source\repos\homeworkweek2\pro1\pro1\circle.h(16): warning C4244: '초기화 중': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\kbs\source\repos\homeworkweek2\pro1\pro1\circle.h(16): warning C4244: '초기화 중': 'double'에서 'const int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\kbs\source\repos\homeworkweek2\pro1\pro1\circle.h(17): warning C4244: '인수': 'float'에서 'const int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\kbs\source\repos\homeworkweek2\pro1\pro1\circle.h(18): warning C4244: '인수': 'float'에서 'const int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\kbs\source\repos\homeworkweek2\pro1\pro1\circle.h(21): warning C4244: '초기화 중': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\kbs\source\repos\homeworkweek2\pro1\pro1\circle.h(21): warning C4244: '초기화 중': 'double'에서 'const int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\kbs\source\repos\homeworkweek2\pro1\pro1\circle.h(24): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\kbs\source\repos\homeworkweek2\pro1\pro1\circle.h(24): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\kbs\source\repos\homeworkweek2\pro1\pro1\circle.h(26): warning C4244: '초기화 중': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\kbs\source\repos\homeworkweek2\pro1\pro1\circle.h(26): warning C4244: '초기화 중': 'double'에서 'const int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\kbs\source\repos\homeworkweek2\pro1\pro1\circle.h(28): warning C4244: '인수': 'float'에서 'const int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\kbs\source\repos\homeworkweek2\pro1\pro1\circle.h(29): warning C4244: '인수': 'float'에서 'const int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\kbs\source\repos\homeworkweek2\pro1\pro1\fillcircle.h(13): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\kbs\source\repos\homeworkweek2\pro1\pro1\fillcircle.h(14): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\kbs\source\repos\homeworkweek2\pro1\pro1\fillcircle.h(16): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\kbs\source\repos\homeworkweek2\pro1\pro1\fillcircle.h(19): warning C4244: '인수': 'float'에서 'const int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\kbs\source\repos\homeworkweek2\pro1\pro1\fillcircle.h(20): warning C4244: '인수': 'float'에서 'const int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\xutility(2810): warning C4996: 'std::_Fill_n': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xutility(2797): note: 'std::_Fill_n' 선언을 참조하십시오.
+  c:\users\kbs\source\repos\homeworkweek2\pro1\pro1\p4.cpp(17): note: 컴파일 중인 함수 템플릿 인스턴스화 '_OutIt std::fill_n<float*,int,float>(_OutIt,_Diff,const _Ty &)'에 대한 참조를 확인하십시오.
+          with
+          [
+              _OutIt=float *,
+              _Diff=int,
+              _Ty=float
+          ]
+LINK : warning LNK4098: 'MSVCRT' defaultlib가 다른 라이브러리와 충돌합니다. /NODEFAULTLIB:library를 사용하십시오.
+  pro1.vcxproj -> C:\Users\kbs\Source\Repos\homeworkweek2\pro1\x64\Debug\pro1.exe
